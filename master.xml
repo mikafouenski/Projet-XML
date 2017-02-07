@@ -1,0 +1,2123 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE master SYSTEM "master.dtd">
+
+<master>
+    <!-- TOUS LES UES "ENSIN"-->
+    <!-- LES LIEUX DES UES N'ETANT PAS SUR LE SITE DU MASTER ILS AURONT PAR DEFAULT LA VALEUR "LUMINY"  -->
+    <!-- A -->
+    <ue id="ENSINAU1">
+        <nom>Genie logiciel</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Processus logiciel</p></li>
+                         <li><p>Gestion de projet</p></li>
+                         <li><p>Spécification et conception (artefact : notation UML)</p></li>
+                         <li><p>Design patterns</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant ref="INTER01"/>
+    </ue>
+    <ue id="ENSINAU2">
+        <nom>Complexite</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Rappels sur les notions d'analyse de la complexité des algorithmes et des problèmes</p></li>
+                         <li><p>Notion de problèmes (décision, recherche, dénombrement, énumération, optimisation). Bornes inférieures de complexité</p></li>
+                         <li><p>Classes P et NP. Problèmes NP-complets</p></li>
+                         <li><p>Méthodes de résolution des problèmes NP-Complets</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant ref="INTER02"/>
+    </ue>
+    <ue id="ENSINAU3">
+        <nom>Reseaux</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Architecture en couches, standard OSI</p></li>
+                         <li><p>Couche physique</p></li>
+                         <li><p>Couche liaison de Données</p></li>
+                         <li><p>Réseau IP</p></li>
+                         <li><p>Algorithmes de routage, routage IP</p></li>
+                         <li><p>Protocole TCP/IP</p></li>
+                         <li><p>Couche Application : HTTP, SMTP, FTP, ...</p></li>
+                         <li><p>Bases des protocoles cryptographiques (terminologie, architecture à clef publique)</p></li>
+                         <li><p>Introduction à la Sécurité des réseaux</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant ref="INTER03"/>
+    </ue>
+    <ue id="ENSINAU4">
+        <nom>Programmation fonctionnelle</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Introduction à la programmation fonctionnelle</p></li>
+                         <li><p>Les types</p></li>
+                         <li><p>Sémantique opérationnelle</p></li>
+                         <li><p>Aspects impératifs</p></li>
+                         <li><p>Implantation du filtrage</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant ref="INTER04"/>
+    </ue>
+    <ue id="ENSINAU6">
+        <nom>Programmation logique</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Introduction</p></li>
+                         <li><p>Listes, arbres et n-uplets</p></li>
+                         <li><p>Analyseurs syntaxiques</p></li>
+                         <li><p>Règles prédéfinies</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant ref="INTER05"/>
+    </ue>
+    <ue id="ENSINAU7">
+        <nom>Outils de l'internet</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Présentation d'Internet</p></li>
+                         <li><p>Les langages et les normes sur Internet</p></li>
+                         <li><p>Les protocoles : HTTP, HTTP, SMTP, IMAP, POP3</p></li>
+                         <li><p>Les applications web</p></li>
+                         <li><p>Sécurité</p></li>
+                         <li><p>Les nouvelles et futures technologies</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant/>
+    </ue>
+    <ue id="ENSINAU8">
+        <nom>Systeme embarque</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant/>
+    </ue>
+    <ue id="ENSINAU9">
+        <nom>Fondamentaux pour l'ingenierie des langues</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Rappel de théorie des langages</p></li>
+                         <li><p>Algorithmes d'analyse syntaxique pour grammaires ambiguës</p></li>
+                         <li><p>Transducteurs finis et leur application en TAL</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINAU10">
+        <nom>Modeles a evenements discrets</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Posséder les notions de base en modélisation et analyse de systèmes dynamiques à événements discrets et particulièrement appréhender le formalisme réseau de Pétri. Étudier la conception et la spécification des systèmes réactifs à travers l'analyse du modèle à évènements discrets (concurrence, parallélisme, synchronisation).</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant/>
+    </ue>
+    <ue id="ENSINAU12">
+        <nom>BDR : approfondissement</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant/>
+    </ue>
+    <ue id="ENSINAU13">
+        <nom>Pratique de la cryptographie</nom>
+        <credit>3</credit>
+        <vol_horaire>03</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant/>
+    </ue>
+
+    <!-- B -->
+    <ue id="ENSINBU1">
+        <nom>Anglais</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Un enseignement destiné à confirmer l'utilisation de l'anglais dans le contexte de l'informatique ainsi que dans la pratique professionnelle</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU2">
+        <nom>Communication</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Théories de la communication</p></li>
+                         <li><p>Rôle de l’interculturalité dans le travail en équipe</p></li>
+                         <li><p>Notions de management et de travail collaboratif</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU4">
+        <nom>XML</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>XML, DTD, XSD</p></li>
+                         <li><p>XPath, XSLT, XQuery</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU5">
+        <nom>Algorithmique et recherche opérationnelle</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Programmation linéaire</p></li>
+                         <li><p>Notions et algorithmes de flots</p></li>
+                         <li><p>Applications (couplage, affectation, transport, ...)</p></li>
+                         <li><p>Programmation dynamique (sac à dos, ordonnancement, ...)</p></li>
+                         <li><p>Algorithmes à performance garantie</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <!-- STAGE ET TER -->
+    <ue id="ENSINBU6">
+        <nom>Projet</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en cours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU7">
+        <nom>Stage de deux mois</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en cours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <!-- / -->
+    <ue id="ENSINBU8">
+        <nom>Semantique</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Le lambda-calcul simplement typé</p></li>
+                         <li><p>Extension à PCF</p></li>
+                         <li><p>Points fixes dans les ordres partiels complets</p></li>
+                         <li><p>Sémantique par point fixe de PCF</p></li>
+                         <li><p>Cours de clôture : survol des différentes approches sémantiques</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU9">
+        <nom>Algorithmique distribuée</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Un système distribué est un ensemble d’entités autonomes de calcul (ordinateurs, PDA, processeurs, processus, processus léger, ...) interconnectées et qui peuvent communiquer entre eux. Ce cours est une introduction aux méthodes pour la conception d'algorithmes dans de tels systèmes. Il donne une présentation des différents types de systèmes distribués et des différents problèmes que l'on doit résoudre. Les problèmes abordés sont : l'élection, le consensus, la diffusion, l'exploration, la réplication, l'exploration et le rendez-vous avec des agent mobiles.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU10">
+        <nom>Intégration des systèmes d'information</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Problématique d'intégration des SI</p></li>
+                         <li><p>Architectures et patrons d'intégration</p></li>
+                         <li><p>Systèmes d'Information d'entreprises</p></li>
+                         <li><p>Systèmes d'Information sur Internet</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU11">
+        <nom>Initiation à la fouille de données et à l'optimisation des SGBD</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Actuellement, de plus en plus de données sont conservées sans être réellement exploitées. Elles représentent pourtant une source importante d’information. La fouille de données peut-être définie comme le processus permettant d’extraire de l’information non triviale et non préalablement connue à partir des données. Dans cet enseignement, nous nous focaliserons sur l’extraction de corrélations entre les données (règle d’association, Dépendances Fonctionnelles...) et nous verrons des techniques de mesure de la qualité des données (détection et correction d’erreur). Par ailleurs, nous passerons du côté obscur des SGBD en mettant évidence le lien existant entre les performances d'un SGBD et les choix d'implémentation des différents algorithmes utilisés (gestion de la concurrence, reprise sur panne, transaction...) ainsi que les différentes implémentations existantes des opérations de base des SGBD comme les jointures ou les tris accompagnés de leurs conditions d'utilisation.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU12">
+        <nom>Intelligence artificielle</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Introduction à l'IA</p></li>
+                         <li><p>Problèmes d'espace d'états et d'exploration</p></li>
+                         <li><p>Logiques pour l'IA et démonstration automatique</p></li>
+                         <li><p>Représentation de connaissances</p></li>
+                         <li><p>Actions, temps et planification</p></li>
+                         <li><p>Programmation par contraintes et réseaux de contraintes</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU13">
+        <nom>Algorithme à performance garantie</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Algorithmes d'approximation de nature combinatoire pour les problèmes NP-complets suivants : Voyageur de Commerce, arbre de Steiner, ordonnancement de taches, clustering, p-centres, sac à dos, bin packing, couverture d'ensemble, la plus courte sur-séquence commune</p></li>
+                         <li><p>FPTAS et PTAS (ordonnancement de taches et sac à dos)</p></li>
+                         <li><p>Algorithmes d'approximation par programmation linéaire : l'arrondi et la méthode primale-duale (MAXSAT, couverture d'ensemble, multicoupes et multiflots dans les arbres)</p></li>
+                         <li><p>Algorithmes en ligne et compétitivité : la pagination et les k-serveurs</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU15">
+        <nom>Programmation parallèle</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINBU16">
+        <nom>Introduction à l'apprentissage automatique</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+
+    <!-- C -->
+    <ue id="ENSINCU1">
+        <nom>Algorithmique et complexité</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Principales techniques de conception et analyse d'algorithmes (efficaces) pour les problèmes polynomiaux et les problèmes NP-complets. Complexité de l'approximation, du comptage. Complexité paramétrée. Classes probabilistes.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU2">
+        <nom>Logique, automates et aspects formels de la théorie des langages</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Logique du premier ordre. Logiques modales et temporelles. Logiques monadiques. Décidabilité de logiques. Automates de mots finis et infinis. Automates d'arbres et langages réguliers d'arbres. Liens avec la logique</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU3">
+        <nom>Statistique inférentielle</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Théorie des probabilités et statistique inférentielle. Ce cours permet d'acquérir des bases solides pour l'apprentissage automatique ou le traitement automatique de la langue naturelle</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU4">
+        <nom>Nouveaux défis en apprentissage</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Étude des méthodes d'apprentissage qui traitent, de façon tant théorique qu'appliquée, séparément ou simultanément, un ou plusieurs problèmes classiques</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU5">
+        <nom>Théorie de l'apprentissage</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Avancées récentes en théorie de l'apprentissage statistique : complexité de Rademacher, bornes PAC-Bayes, stabilité algorithmique, schémas de compression.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU6">
+        <nom>Inférence grammaticale</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Large panorama des différents algorithmes et résultats obtenus récemment pour l'apprentissage de représentations grammaticales de langages</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU7">
+        <nom>Apprentissage numérique</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Étude de quelques unes des méthodes les plus performantes en apprentissage numérique : les réseaux de neurones, les modèles de Markov cachés et les machines à vecteurs de support.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU8">
+        <nom>Fouille de bases de données</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Bases mathématiques sur lesquelles reposent les méthodes de fouille de bases de données qui sont également présentées et visent soit l'aide à la décision soit l'administration de bases de données.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU9">
+        <nom>Entrepôts de données</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Étude de la problématique posée par les entrepôts de données (ou data warehouse ou OLAP), depuis leur conception jusqu'aux algorithmes de calcul de cubes de données.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU10">
+        <nom>Fouille de données avancée</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Approfondissement des techniques de fouille de données en étudiant les méthodes de réduction des règles d'association ainsi que leur application à la classification supervisée et en mettant en œuvre des algorithmes par niveaux.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU11">
+        <nom>Géométrie discrète</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Introduction à la géométrie discrète dans $Z^n$, en trois volets : des rappels sur la géométrie des nombres, un état de l'art en géométrie discrète, enfin une étude des transformations de distances et leurs applications.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU12">
+        <nom>Algorithmique des graphes et réseaux</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Algorithmes exacts. Algorithmes d'approximation. Structures de données distribuées.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU13">
+        <nom>Espaces métriques : structure et algorithmiques</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Introduction aux principales classes et constructions des espaces métriques et des graphes métriques,. Plongements isométriques ou à faible distorsion des espaces métriques dans des espaces géométriques, leur applications en informatique et mathématiques.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU14">
+        <nom>Optimisation combinatoire et programmation en nombres entiers</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Principaux concepts, algorithmes, méthodes et outils qui permettent de résoudre les problèmes d'optimisation combinatoire, en particulier ceux qui se formulent comme des programmes linéaires en nombres entiers.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU15">
+        <nom>Logiques et jeux</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Mu-calcul , syntaxe-sémantique. Model-checking par jeux de parité, tableaux-decidabilité. Puissance expressive</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU16">
+        <nom>Algorithmique distribuée 2</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Algorithmes de diffusion, diffusion avec retour. Algorithmes d'élection, détection de la terminaison. Tolérance aux pannes</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU17">
+        <nom>Vérification et sécurité</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Model Checking. Algorithmes de vérification. Modèles de sécurité. Vérification de programmes par analyse statique.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU18">
+        <nom>Modèles du parallélisme</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Modèles classiques de systèmes. Résultats principaux du domaine concernant les problèmes d'accessibilité, de model-checking, de contrôle ou de synthèse associés.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU19">
+        <nom>Modèles et connaissances linguistiques pour le TAL</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Traitement automatique des langues dans ses aspects applications. Différentes types de connaissances et modèles symboliques sur la langue. Plusieurs ressources linguistiques pour le français sont examinées.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU20">
+        <nom>Syntaxe et sémantique : modèles et outils</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Principes et nature des représentations syntaxiques et sémantiques associables à une phrase. Différents formalismes seront étudiés pour exprimer ces représentations.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU21">
+        <nom>Modèles numériques pour le TAL</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Présentation des modèles numériques utilisés pour différentes tâches du Traitement Automatique des Langue. Algorithmes qui permettent d'en estimer les paramètres à partir de données et les algorithmes de décodage.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU22">
+        <nom>Applications du Traitement Automatique de la Langue (TAL)</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>État de l'art dans différentes applications du Traitement Automatique des Langues, tel que la traduction automatique, le résumé automatique ainsi que sur les traitements de « bas niveau » nécessaires dans la majorité des applications.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU23">
+        <nom>Algorithmique des chaînes de caractères</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Différentes structures et algorithmes relatifs aux traitements des chaînes de caractères.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU24">
+        <nom>Classification et phylogénie</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Méthodes de classification et de construction d'arbres à partir de distances.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU25">
+        <nom>Modèles markoviens</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Présentation des chaînes de Markov, leurs algorithmes et applications.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU26">
+        <nom>Logiques non-standards</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Logiques multi-modales des connaissances et de l'interaction. Logiques non-monotones. Logiques de description. Tableaux sémantiques pour logiques de mondes possibles. Bases de connaissances dynamiques.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU27">
+        <nom>Anglais 2</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU28">
+        <nom>Communication 2</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>L’étudiant apprend à effectuer un bilan de son parcours de formation, à élaborer un projet professionnel personnel, à cerner ses motivations et à enrichir ses connaissances des métiers et du marché de l’informatique pour se constituer un portefeuille de compétences.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU29">
+        <nom>Fiabilité logicielle 1</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Introduction fiabilité vs sécurité</p></li>
+                         <li><p>Test boite blanche (graphe de contrôle, de donnée, mesure de couverture, modèle à base d'automates, qualité logicielle)</p></li>
+                         <li><p>Test boite noire (spécifications formelle informelles, construction de suite de tests : partitionnement, tests au limites, tests combinatoires, graphe de causalité)</p></li>
+                         <li><p>Test et Simulation (Objets factices, inversion de contrôle, intégration)</p></li>
+                         <li><p>Validation Formelle (système de preuves : Hoare, logique de séparation, analyse statique)</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU30">
+        <nom>Plateforme JEE</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>L'objet du cours est de présenter le développement d'applications dans le cadre de la plateforme JEE ( Java Enterprise Edition ). </p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU31">
+        <nom>Systèmes hétérogènes</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Introduction aux métiers et organisation des Systèmes d'Information (DSI, AMO, MOE, architectes, exploitants...)</p></li>
+                         <li><p>Introduction aux stratégies d'entreprises autour de leurs systèmes d'information (plan de continuité d'activité, plan de reprise d'activité, plan de continuité informatique...)</p></li>
+                         <li><p>Introduction à la conception et à l'évolution de systèmes d'information (recueil et analyse de l'existant, des besoins et contraintes, scénarii, rédaction de cahier des charges...)</p></li>
+                         <li><p>Découvertes des technologies liées à la disponibilité et haute disponibilité des données informatiques (réseaux de stockage - SAN, NAS -, virtualisation...)</p></li>
+                         <li><p>Découverte des architectures de disponibilité et haute disponibilité des SI (analyse des besoins, conception, cloud computing...)</p></li>
+                         <li><p>Approfondissement des savoirs autour des réseaux de transferts de données d'entreprises (routage, réseaux privés virtuels...)</p></li>
+                         <li><p>Découverte des infrastructures de services des réseaux de données</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU32">
+        <nom>Sécurité internet et réseau</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Un volet organisationnel qui aborde la mise en place d'un système de management de la sécurité informatique à travers notamment l'étude des normes (ISO 27001, ISO 27002 ...) ou l'utilisation pratique de méthodes d'évaluation des besoins et des objectifs de sécurité</p></li>
+                         <li><p>Un volet technique orienté sur l'acquisition des mécanismes cryptographiques actuels (algorithmes, protocoles ...) avec une mise en œuvre pratique (tunnels sécurisés, infrastructure de distribution de certificats...) ainsi que l'utilisation des outils de sécurité réseaux (journalisation, conformité …) en complément d'une sensibilisation pratique aux types d'attaque réellement existantes.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU33">
+        <nom>Fiabilité logicielle 2</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Voir le programme complet sur le site du master :)</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU34">
+        <nom>Qualité</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Chapitre 1 : Introduction : Référentiels et Gestion de Service IT</p></li>
+                         <li><p>Chapitre 2 : Stratégie des Services</p></li>
+                         <li><p>Chapitre 3 : Conception des Services</p></li>
+                         <li><p>Chapitre 4 : Transition des Services</p></li>
+                         <li><p>Chapitre 5 : Exploitation des Services</p></li>
+                         <li><p>Chapitre 6 : Amélioration Continue des Services</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU35">
+        <nom>Sécurité des systèmes embarqués</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>But de ce module est de familiariser les étudiants avec les principes de la norme USB et de leur donner les moyens pour développer des pilotes USB côté hôte et côté périphérique. La norme USB étant vaste, on se concentrera sur deux classes particulières, les périphériques HID (human interface devise) et les périphériques CCID (circuit card interface devices, c'est-à-dire des lecteurs de cartes à puce sans et avec contact pour des applications de sécurité).</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU36">
+        <nom>Administration système et réseau</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>L'objectif est de préparer les étudiants à l'administration d'un réseau d'ordinateurs. L'accent sera mis sur les aspects pratiques et concrets de l'administration d'un réseau d'entreprise pour les systèmes UNIX et Windows. A ce titre, une maquette constituée de plusieurs serveurs et stations sous Windows 2000/XP/Linux sera montée par les étudiants.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU37">
+        <nom>Méthodes de développement</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Les problématiques d'un développement pérenne (principes, cycle de développement, méthodologies)</p></li>
+                         <li><p>Rappels d'UML : principaux diagrammes (classes, activités, cas, séquences), représentation, études de cas</p></li>
+                         <li><p>Les design patterns en profondeur (description détaillée des 26 patterns, étude de cas)</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU38">
+        <nom>Architecture logicielle JEE</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>L'objet du cours est de présenter l'architecture et le développement d'applications dans le cadre de la plateforme JEE ( Java Enterprise Edition ). Ce cours prend la suite d'un premier cours de 30 heures sur JEE.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU39">
+        <nom>Intégration des données</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Le modèle Relationnel-Objet : La norme SQL3, l’implantation dans le SGBD Oracle</p></li>
+                         <li><p>XML et les bases de données : Stockage en base, les fonctions SQLXML</p></li>
+                         <li><p>La correspondance Objet/Relationnel : Le standard JPA, l’implantation Hibernate</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU40">
+        <nom>Administration et alimentation de BD</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Architecture d’un SGBD.</p></li>
+                         <li><p>Création, Confidentialité, Optimisation et Sécurité d’une base de données.</p></li>
+                         <li><p>Migration de bases de données : techniques usuelles, maintenance de l’inter-dépendance entre bases de données.</p></li>
+                         <li><p>Alimentation, nettoyage et sélection des données en vue d'analyses.</p></li>
+                         <li><p>Logiciels possible : ORACLE, Pentaho Data Integration.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU41">
+        <nom>Qualité logicielle : outils et méthodes</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Qualité logicielle, test et validation logiciel, ateliers de génie logiciel.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU42">
+        <nom>Spécification logicielle</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Modèles formels, modèle SADT, logiciels temps réel, méthode SA-RT.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU43">
+        <nom>Conception logicielle</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Conception objet, patrons de conception, conception IHM.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU44">
+        <nom>Architecture logicielle JEE</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Composants logiciels , architectures N-tier, middleware, Entreprise Java Beans (EJB).</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU45">
+        <nom>Technologies du Web et Web 2.0</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Protocoles de communication, standards Web, Langages à balises, programmation Web, Ajax, XUL, standardisation et convergence d'interfaces.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU46">
+        <nom>XML avancé</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Modélisation et navigation, XSchema et XPath avancés, Requêtage des bases documentaires, DOM et SAX avancés.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU47">
+        <nom>Gestion de projet</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Définition et acteurs d'un projet, organisation d'un projet, techniques de planification, estimation prévisionnelle d'un projet, pilotage et contrôle d'un projet, recette finale.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU48">
+        <nom>Optimisation linéaire</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Rappels de programmation linéaire.</p></li>
+                         <li><p>Implantation efficace de la méthode simplex.</p></li>
+                         <li><p>Dualité et analyse de sensibilité.</p></li>
+                         <li><p>Notion et algorithmes de flots, applications.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU49">
+        <nom>Fouille de données (FD)</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Bases mathématiques pour la fouille de données, l'aide à la décision et à la rétro-conception de Bases de Données</p></li>
+                         <li><p>Motifs fréquents, Motifs contraints et Règles d'association</p></li>
+                         <li><p>Motifs Fermés</p></li>
+                         <li><p>Clefs et couvertures pour les Règles</p></li>
+                         <li><p>Corrélation et classification</p></li>
+                         <li><p>Clustering et Skylines</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU50">
+        <nom>Méthodologie de conception d'applications décisionnelles</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Technique de nettoyage et de vérification des données.</p></li>
+                         <li><p>Analyse et modélisation de problèmes décisionnels.</p></li>
+                         <li><p>Définition de l'objectif de l'analyse : indicateurs, mesures et reporting.</p></li>
+                         <li><p>Études de cas.</p></li>
+                         <li><p>Logiciels : Penthao Dashboard et Reporting.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU53">
+        <nom>Modélisation en RO</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Modélisation mathématique d'un problème d'optimisation.</p></li>
+                         <li><p>Utilisation de langage de modélisation et de solveurs</p></li>
+                         <li><p>Modélisation en variables binaires.</p></li>
+                         <li><p>Etudes de cas par secteurs d'activités.</p></li>
+                         <li><p>Logiciels : Xpress, Mosel, OPL</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU54">
+        <nom>Recherche locale</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Introduction et méthodologie.</p></li>
+                         <li><p>Stratégie de recherche et mouvements.</p></li>
+                         <li><p>Algorithmique incrémentale.</p></li>
+                         <li><p>Modélisation orientée recherche locale.</p></li>
+                         <li><p>Un solveur par recherche locale : LocalSolver.</p></li>
+                         <li><p>Etude de cas.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU56">
+        <nom>Traitement automatique de la parole</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>L'objectif de ce cours est de présenter d'une part les principaux formalismes, modèles et algorithmes pour le traitement automatique de l'oral et d'autre part les outils logiciels permettant de construire une application incluant de la reconnaissance et/ou de la synthèse vocale. Le but de ce cours est de donner aux étudiants une connaissance du potentiel et des limites de la technologie actuelle dans ce domaine.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU58">
+        <nom>Apprentissage automatique et classification</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>La classification par apprentissage automatique (supervisé et non supervisé) est introduite dans ses objectifs et ses principes. En s'appuyant sur des méthodes éprouvées (arbres de décision, classifieur naïf de Bayes, SVM, k-means, etc.), les grands principes de l'apprentissage automatique pour la classification sont présentés, et illustrés dans le cas de données multimedia (texte et image). Un accent tout particulier est porté sur l'environnement méthodologique de l'apprentissage automatique (estimation de paramètres, évaluation des classifieurs, données manquantes ou bruitées, etc.)</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU59">
+        <nom>Recherche et indexation des données multimédia</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Ce cours présente une introduction au domaine de la Recherche d’Information Multimédia. La première partie du cours introduit les principes généraux de la RI, appliqués aux documents textuels : indexation ; interrogation ; évaluation. Les modèles classiques : booléen, vectoriel et probabiliste sont présentés, ainsi que les notions d’extension de requête et de bouclage de pertinence. Ce cours s'intéresse aussi aux spécificités des différents formats image et vidéo et présente des solutions pratique pour la mise en oeuvre de serveurs de streaming vidéo.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU60">
+        <nom>Architectures réparties - JEE</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Cette UE contient les concepts et outils de base pour le développement de systèmes et d'applications distribués sur le Web. Les architectures client serveur seront revisitées, et un focus particulier sera fait sur les servlets, JSP, EJB, J2EE etc.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU64">
+        <nom>Développement d'applications mobiles</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Ce cours est dédié au développement d'applications sur smartphones et tablettes dans un environnement Android. L’objectif visé est le développement d’une application complète et professionnelle à l’issue de ce cours.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU65">
+        <nom>Gestion de projet</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Cette UE vise à inculquer un mode de fonctionnement projet. Les aspects techniques (délais, jalons, indicateurs, etc.) et humains (communication, gestion ds conflits, etc) seront abordés.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU66">
+        <nom>Nouvelles applications du Traitement Automatique de la Langue (TAL)</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>État de l'art dans différentes applications du Traitement Automatique des Langues, tel que la traduction automatique, le résumé automatique ainsi que surles traitements de « bas niveau » nécessaires dans la majorité des applications.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU67">
+        <nom>Projet d'entreprise</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>L'objet de cet enseignement est de présenter un projet de création et de développementd'entreprise. Le but est de donner une vision horizontale des différents aspects à examiner pour se lancerdans une création d'entreprise, sans la complétude verticale donnée par exemple par un cours de type« école de commerce » sur l'aspect marché. Une vision de Business Plan pourra ainsi être acquise à la finde cet enseignement.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU68">
+        <nom>Cloud computing</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>L’objectif de ce cours et d’apprendre à créer et déployer des applications Cloud.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU69">
+        <nom>Recherche d'information</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU72">
+        <nom>Entrepôt de données et Big Data</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Définition, caractéristique, particularité, architecture.</p></li>
+                         <li><p>Intégration de données.</p></li>
+                         <li><p>Exploitation d'un entrepôt en vue d'analyses.</p></li>
+                         <li><p>Requêtes OLAP.</p></li>
+                         <li><p>Cubes de données, modèles conceptuels et logiques.</p></li>
+                         <li><p>Méthode algorithmique de type Rolap cubing.</p></li>
+                         <li><p>Big Data : concept et usage</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU73">
+        <nom>Analyse et reporting</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Problématique d'analyse de données et de reporting</p></li>
+                         <li><p>Choix des données pour une l'analysele et le reporting</p></li>
+                         <li><p>Choix des indicateurs et mesure</p></li>
+                         <li><p>Choix de la représentation graphique des données agrégées</p></li>
+                         <li><p>Restitution statique et dynamique</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU74">
+        <nom>Introduction au Big Data</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINCU75">
+        <nom>Business process</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+
+    <!-- D -->
+    <ue id="ENSINDU1">
+        <nom>Communication scientifique</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Lecture d'un article en anglais et exposé oral.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINDU2">
+        <nom>Initiation à la recherche</nom>
+        <credit>27</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINDU3">
+        <nom>Projet industriel de mise en application</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Rédaction du cahier des charges. Conception de l'application. Développement et test. Rédaction d'un mémoire et présentation.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSINDU4">
+        <nom>Stage en entreprise</nom>
+        <credit>24</credit>
+        <vol_horaire/>
+        <description><ul><li><p>Recherche d'un stage. Validation du sujet de stage. Suivi du bon déroulement du stage. Aide à la rédaction du mémoire de stage. Soutenance et évaluation du stage.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+
+    <!-- TOUS LES UES "ENSIS"-->
+    <!-- C -->
+    <ue id="ENSISCU1">
+        <nom>AU4 : Classification, apprentissage et décision</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Méthodes non supervisées et supervisées, classification Bayésienne, évaluation et validation, logique floue</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU2">
+        <nom>IM8 : Segmentation 2</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Contours actifs, filtrage non linéaire/diffusion, approches stochastiques (Markov/Bayes)</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU3">
+        <nom>IM6 : Animation et simulation physique</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU4">
+        <nom>IM10 : Imagerie médicale</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Origine et nature des images médicales (les différentes modalités), Analyse des images médicales, Reconstruction et imagerie médicale 3D, Recalage d’images, Applications</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU5">
+        <nom>IM11 : Modélisation algorithmique, différentielle et discrète</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Enveloppe convexe, triangulation de Delaunay, diagramme de Voronoi, Courbures discrètes, Distances discrètes, Axes médians et squelettes, Topologie élémentaire et nombres de Betti</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU6">
+        <nom>IM12 : Analyse de vidéo et reconnaissance de forme</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Détection de mouvement dans une séquence vidéo, Suivi d’objets, Reconnaissance de formes , Applications : Vidéo surveillance, Détection et suivi de personnes , Suivi des visages et détection des émotions</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU7">
+        <nom>IM13 : Vision industrielle</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Introduction sur les capteurs , Vision active, Vision passive , Technique de mosaiquage d’images, Recalage multimodal, Reconstruction 3D, Application : Photogrammétrie, Inspection industrielle</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU8">
+        <nom>IM14 : Modèles pour la production d'images : CAO et jeux vidéo</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>la Conception Assistée par Ordinateur</p></li>
+                         <li><p>la Visualisation, la Simulation, la Réalité Virtuelle et Augmentée</p></li>
+                         <li><p>les Jeux Vidéos</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU20">
+        <nom>RTC : Concepts fondamentaux de la modélisation</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Concepts et formalismes de base pour la modélisation temporelle et spatiale (modèles de comportements, modèles de structures et modèles géométriques) et la modélisation de l'information et de la connaissance (méthodes de représentation de la connaissance, formalismes logiques, expression de problèmes à l'aide de contraintes).</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU21">
+        <nom>RI1 : Fondements logiques et algorithmiques</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Introduction aux notions fondamentales logiques et algorithmiques qui trouvent leurs applications dans plusieurs domaines : systèmes multi-agents, vérification des systèmes, ontologies pour le web sémantique, traitement de connaissance incomplète et révisable, recherche d’information et fouilles des données. Le cours prévoit une partie portant sur la complexité structurelle nécessaire à l’analyse et à l’évaluation des tous formalismes logiques d’un point de vue algorithmique ainsi que sur les algorithmes probabilistes utilisés dans la recherche d’information et fouilles des données.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU22">
+        <nom>RI2 : Fondements de programmation et de satisfiabilité</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Etude des problèmes de satisfaction de contraintes (CSP) et du problème de la satisfiabilité en logique propositionnelle (SAT). Nous nous intéressons en particulier aux questions portant sur la résolution de ces problèmes (méthodes et fondements théoriques) ainsi qu'aux fragments polynomiaux existant en SAT et CSP.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU23">
+        <nom>RI3 : Représentation des connaissances : Approfondissement et applications</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Acquérir des notions avancées en représentation de connaissances et raisonnement dans les domaines de : la révision et la fusion des croyances, l’Answer Set Programming et les théories formelles de l’argumentation.</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU24">
+        <nom>RI4 : Planification, configuration et raisonnement temporel et spatial</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU25">
+        <nom>RI5 : Agents et ontologies pour les systèmes d'information et le web sémantique</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU26">
+        <nom>RI6 : Approches avancées de conception de systèmes d'information</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU27">
+        <nom>RI7 : Extraction et intégration d'information du web</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU28">
+        <nom>RI8 : Web services</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU29">
+        <nom>RIS1 : Traitement de données multimodales</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU30">
+        <nom>RIS2 : Formalismes à événements discrets</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU31">
+        <nom>RIS3 : Simulation distribuée et modèles hétérogènes</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU32">
+        <nom>RIS4 : Aide à la décision</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU33">
+        <nom>R2 : Communication et interaction homme-machine</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU34">
+        <nom>RE1 : Problématique, démarche, modèles et objects de conception</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU35">
+        <nom>RE2 : Modèles et objets de conception</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU36">
+        <nom>RE3 : Systèmes intelligents</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU37">
+        <nom>RE4 : Conception et architecture</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU38">
+        <nom>RO1 : Une UE extérieure de 3 crédits (validation requise)</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU39">
+        <nom>RO2 : Une UE extérieure de 6 crédits (validation requise)</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU40">
+        <nom>RS1 : Commande et diagnostic des systèmes complexes</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU41">
+        <nom>RS2 : Systèmes à structure variable et planification</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU42">
+        <nom>RS3 : Génie électrique et mécatronique</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU43">
+        <nom>RS4 : Pronostic des systèmes</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU44">
+        <nom>RS5 : Procédés à énergie renouvelable</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU45">
+        <nom>RS6 : Réseaux de neurones</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU46">
+        <nom>RS7 : Conduite et gestion de la production</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISCU55">
+        <nom>IM15 : Modèles pour la production d'images, traitement et visualisation de données géométriques à haute-performance</nom>
+        <credit>3</credit>
+        <vol_horaire>30</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+
+    <!-- D -->
+    <ue id="ENSISDU3">
+        <nom>R bib : Étude bibliographique</nom>
+        <credit>6</credit>
+        <vol_horaire>60</vol_horaire>
+        <description><ul><li><p>Pas de resume :/</p></li></ul></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+    <ue id="ENSISDU4">
+        <nom>Stage de recherche</nom>
+        <credit>24</credit>
+        <vol_horaire/>
+        <description><p>Pas de resume :/</p></description>
+        <plan>:(</plan>
+        <lieu>Luminy</lieu>
+        <ref-intervenant></ref-intervenant>
+    </ue>
+
+    <!-- INTERVENANT -->
+    <intervenant id="INTER01">
+        <nom>AGOPIAN</nom>
+        <prenom>Roland</prenom>
+        <mail>roland.agopian@univ-amu.fr</mail>
+        <site>Pas de site :/</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER02">
+        <nom>ARTIÈRES</nom>
+        <prenom>Thierry</prenom>
+        <mail>thierry.artieres@lif.univ-mrs.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER03">
+        <nom>BECHET</nom>
+        <prenom>Frederic</prenom>
+        <mail>frederic.bechet@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER04">
+        <nom>BERTOLISSI</nom>
+        <prenom>Clara</prenom>
+        <mail>clara.bertolissi@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER05">
+        <nom>BOUCELMA</nom>
+        <prenom>Omar</prenom>
+        <mail>omar.boucelma@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER06">
+        <nom>BROCHE</nom>
+        <prenom>Martine</prenom>
+        <mail>martine.broche@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue ref="ENSINBU2"/>
+    </intervenant>
+    <intervenant id="INTER07">
+        <nom>CREIGNOU</nom>
+        <prenom>Nadia</prenom>
+        <mail>nadia.creignou@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue ref="ENSINAU2"/>
+    </intervenant>
+    <intervenant id="INTER08">
+        <nom>DEMONGODIN</nom>
+        <prenom>Isabel</prenom>
+        <mail>isabel.demongodin@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER09">
+        <nom>ESTELLON</nom>
+        <prenom>Bertrand</prenom>
+        <mail>bertrand.estellon@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER10">
+        <nom>FAVRE</nom>
+        <prenom>Benoit</prenom>
+        <mail>benoit.favre@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER11">
+        <nom>GODARD</nom>
+        <prenom>Emmanuel</prenom>
+        <mail>emmanuel.godard@univ-amu.fr</mail>
+        <site>http://pageperso.lif.univ-mrs.fr/~emmanuel.godard/</site>
+        <ref-ue ref="ENSINAU3"/>
+    </intervenant>
+    <intervenant id="INTER12">
+        <nom>HABET</nom>
+        <prenom>Djamal</prenom>
+        <mail>djamal.habet@univ-amu.fr</mail>
+        <site>:(/</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER13">
+        <nom>JAMET</nom>
+        <prenom>Line</prenom>
+        <mail>line.jakubiec@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER14">
+        <nom>LABOUREL</nom>
+        <prenom>Arnaud</prenom>
+        <mail>arnaud.labourel@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER15">
+        <nom>LAI</nom>
+        <prenom>Claude</prenom>
+        <mail>claude.lai@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER16">
+        <nom>LUGIEZ</nom>
+        <prenom>Denis</prenom>
+        <mail>denis.lugiez@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER17">
+        <nom>MASSAT</nom>
+        <prenom>Jean Luc</prenom>
+        <mail>jean-luc.massat@univ-amu.fr</mail>
+        <site>http://jean-luc.massat.perso.luminy.univ-amu.fr/</site>
+        <ref-ue ref="ENSINBU4"/>
+    </intervenant>
+    <intervenant id="INTER18">
+        <nom>MICHEL</nom>
+        <prenom>Stephane</prenom>
+        <mail>Pas de mail :/</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER19">
+        <nom>MORIN</nom>
+        <prenom>Remi</prenom>
+        <mail>remi.morin@univ-amu.fr</mail>
+        <site>http://pageperso.lif.univ-mrs.fr/~remi.morin/</site>
+        <ref-ue ref="ENSINAU13"/>
+        <ref-ue ref="ENSINBU15"/>
+    </intervenant>
+    <intervenant id="INTER20">
+        <nom>NOVELLI</nom>
+        <prenom>Noel</prenom>
+        <mail>noel.novelli@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue ref="ENSINBU11"/>
+    </intervenant>
+    <intervenant id="INTER21">
+        <nom>OLIVE</nom>
+        <prenom>Frederic</prenom>
+        <mail>frederic.olive@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue ref="ENSINAU2"/>
+    </intervenant>
+    <intervenant id="INTER22">
+        <nom>OLIVETTI</nom>
+        <prenom>Nicolas</prenom>
+        <mail>nicola.olivetti@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER23">
+        <nom>RENE CHABAROT</nom>
+        <prenom>Lydie</prenom>
+        <mail>lydie.rene@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue ref="ENSINBU2"/>
+    </intervenant>
+    <intervenant id="INTER24">
+        <nom>REYNIER</nom>
+        <prenom>Pierre Alain</prenom>
+        <mail>pierre-alain.reynier@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER25">
+        <nom>RISCH</nom>
+        <prenom>Sylvie</prenom>
+        <mail>sylvie.risch@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER26">
+        <nom>SABATIER</nom>
+        <prenom>Claude</prenom>
+        <mail>claude.sabatier@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue ref="ENSINAU12"/>
+    </intervenant>
+    <intervenant id="INTER27">
+        <nom>SELLAMI</nom>
+        <prenom>Sana</prenom>
+        <mail>sana.sellami@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+    <intervenant id="INTER28">
+        <nom>VAXES</nom>
+        <prenom>Yann</prenom>
+        <mail>yann.vaxes@univ-amu.fr</mail>
+        <site>:(</site>
+        <ref-ue/>
+    </intervenant>
+
+    <!-- PARCOURS -->
+    <!-- MASTER 1 -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Master 1</nom>
+        <description><p>L'objectif de cette première année est de donner les bases indispensables permettant, en deuxième année, de choisir une spécialisation dans un domaine précis. Sur les 60 crédits de cette première année, 15 crédits correspondent à des enseignements optionnels. Ces options permettent de construire un parcours adapté. Un choix entre stage ou projet encadré est également proposé au semestre de printemps.</p></description>
+        <debouche>Master 2 ?</debouche>
+
+        <!-- SEMESTRE 1 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINAU1"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINAU2"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINAU3"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINAU4"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINAU12"/>
+            <role obligatoire="V"/>
+
+            <!-- OPTION -->
+            <ref-ue ref="ENSINAU6"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINAU7"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINAU8"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINAU9"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINAU10"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINAU13"/>
+            <role obligatoire="F"/>
+        </semestre>
+
+        <!-- SEMESTRE 2 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINBU1"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINBU2"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINBU4"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINBU5"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINBU15"/>
+            <role obligatoire="V"/>
+
+            <!-- STAGE ET TER -->
+            <ref-ue ref="ENSINBU6"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINBU7"/>
+            <role obligatoire="V"/>
+
+            <!-- OPTION -->
+            <ref-ue ref="ENSINBU8"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINBU9"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINBU10"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINBU11"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINBU12"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINBU13"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINBU16"/>
+            <role obligatoire="F"/>
+        </semestre>
+    </parcours>
+
+    <!-- MASTER 2 : FSI -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Fiabilité et sécurité informatique (FSI)</nom>
+        <description><p>La formation donne les principes et techniques liés à la conception de systèmes informatiques surs dans un environnement ouvert et hétérogène. Elle forme les étudiants aux principes et méthodes de développement modernes qui reposent sur des outils de prototypage, de test et de suivi de logiciels, avec des méthodologies normalisées. Elle apporte des compétences fortes en sécurité informatique dans les domaines liés à l'échange d'information (Web-services, protocoles de communication et cryptographiques,..) et à la communication entre systèmes (réseaux hétérogènes et applications embarquées ou distribuées).</p></description>
+        <debouche>:(</debouche>
+
+        <!-- SEMESTRE 3 -->
+        <semestre>
+            <!-- TRONC COMMUN -->
+            <ref-ue ref="ENSINCU27"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU28"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU29"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU30"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU31"/>
+            <role obligatoire="V"/>
+
+            <!-- BONUS -->
+            <ref-ue ref="ENSINCU67"/>
+            <role obligatoire="F"/>
+
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINCU32"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU33"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU34"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU35"/>
+            <role obligatoire="V"/>
+        </semestre>
+
+        <!-- SEMESTRE 4 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINDU3"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINDU4"/>
+            <role obligatoire="V"/>
+        </semestre>
+    </parcours>
+
+    <!-- MASTER 2 : ISL -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Intégration de systèmes logiciels (ISL)</nom>
+        <description><p>Le développement de l'Internet/Intranet et des applications associées a fait émerger de nouvelles normes pour la structuration des applications informatiques réparties. L'enjeu est de présenter des modèles (programmation par composants, par aspects, design pattern), des plateformes (JEE, .NET, Corba, etc.) et des outils (JAVA, SGBDOO, XML) qui offrent un cadre dans lequel les applications sont développées, validées et intégrées plus facilement. L'objectif de ce parcours est d'initier les étudiants à la conception et à la réalisation d'applications dans de tels cadres. La formation mettra plus particulièrement l'accent sur les notions d'architecture logicielle, de programmation par composants, de qualité et de fiabilité. Elle utilisera la plateforme Java Enterprise Edition pour concrétiser les concepts présentés.</p></description>
+        <debouche>:(</debouche>
+
+        <!-- SEMESTRE 3 -->
+        <semestre>
+            <!-- TRONC COMMUN -->
+            <ref-ue ref="ENSINCU27"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU28"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU29"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU30"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU31"/>
+            <role obligatoire="V"/>
+
+            <!-- BONUS -->
+            <ref-ue ref="ENSINCU67"/>
+            <role obligatoire="F"/>
+
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINCU36"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU37"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU38"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU39"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU40"/>
+            <role obligatoire="V"/>
+        </semestre>
+
+        <!-- SEMESTRE 4 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINDU3"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINDU4"/>
+            <role obligatoire="V"/>
+        </semestre>
+    </parcours>
+
+    <!-- MASTER 2 : GL -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Génie logiciel (GL)</nom>
+        <description><p>La production d'un logiciel est une tâche très complexe mettant en oeuvre plusieurs ressources, notamment humaines, matériels et technologiques. La spécialité « Génie logiciel » a pour objectif d'apporter aux étudiants les compétences approfondies requises pour pouvoir intervenir dans toutes les phases de la production logiciel.</p></description>
+        <debouche>:(</debouche>
+
+        <!-- SEMESTRE 3 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINCU41"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU42"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU43"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU44"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU45"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU46"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU47"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU27"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU28"/>
+            <role obligatoire="V"/>
+        </semestre>
+
+        <!-- SEMESTRE 4 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINDU3"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINDU4"/>
+            <role obligatoire="V"/>
+        </semestre>
+    </parcours>
+
+    <!-- MASTER 2 : FED -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Fouille et entrepôts de données (FED)</nom>
+        <description><p>Ce parcours permet aux étudiants d’approfondir les connaissances qu'ils doivent maîtriser pour appréhender le cycle de vie complet des bases et entrepôts de données : de leur conception à leur administration, en passant par les architectures logicielles des systèmes de bases de données, et les divers formats d'échanges à travers le web. Une attention particulière est portée à l'étude des techniques de fouille et d'extraction de connaissances à partir de données. La Fouille de Données ou l'Extraction de Connaissances à partir de Bases de données désigne un domaine de compétences dont l'objectif est de rechercher et découvrir des informations, nouvelles et utiles, dans des données le plus souvent volumineuses et hétérogènes. La fouille de données rassemble des professionnels de plusieurs disciplines : des spécialistes en bases et entrepôts de données, en analyse des données, ayant aussi des connaissances de bases en recherche opérationnelle.</p></description>
+        <debouche>:(</debouche>
+
+        <!-- SEMESTRE 3 -->
+        <semestre>
+            <!-- TRONC COMMUN -->
+            <ref-ue ref="ENSINCU27"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU28"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU30"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU40"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU48"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU49"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU50"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU53"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU72"/>
+            <role obligatoire="V"/>
+
+            <!-- BONUS -->
+            <ref-ue ref="ENSINCU67"/>
+            <role obligatoire="F"/>
+
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINCU73"/>
+            <role obligatoire="V"/>
+        </semestre>
+
+        <!-- SEMESTRE 4 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINDU3"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINDU4"/>
+            <role obligatoire="V"/>
+        </semestre>
+    </parcours>
+
+    <!-- MASTER 2 : RO -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Recherche opérationnelle (RO)</nom>
+        <description><p>La recherche opérationnelle consiste à utiliser des méthodes et des modèles pour résoudre des problèmes complexes d'organisation, de planification, de gestion de ressources, ou d'optimisation issus de nombreux secteurs d'activités comme le transport, l'industrie, les télécommunications, la finance... La résolution de ces problèmes constitue un enjeu économique et industriel important. La conception d'applications décisionnelles requiert une phase de spécification et d'extraction de données lors de laquelle les compétences acquises par les étudiants de la spécialité ID dans le domaine de la fouille et des entrepôts de données sera particulièrement utile. Elle nécessite également des connaissances fondamentales dans le domaine de la modélisation et de l'optimisation et une très bonne maîtrise des outils nécessaires pour concevoir et développer des applications décisionnelles (langages de modélisation, solveurs, structures de données, algorithmes…).</p></description>
+        <debouche>:(</debouche>
+
+        <!-- SEMESTRE 3 -->
+        <semestre>
+            <!-- TRONC COMMUN -->
+            <ref-ue ref="ENSINCU27"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU28"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU30"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU40"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU48"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU49"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU50"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU53"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU72"/>
+            <role obligatoire="V"/>
+
+            <!-- BONUS -->
+            <ref-ue ref="ENSINCU67"/>
+            <role obligatoire="F"/>
+
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINCU54"/>
+            <role obligatoire="V"/>
+        </semestre>
+
+        <!-- SEMESTRE 4 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINDU3"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINDU4"/>
+            <role obligatoire="V"/>
+        </semestre>
+    </parcours>
+
+    <!-- MASTER 2 : IF -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Informatique fondamentale (IF)</nom>
+        <description><p>L'objectif de la spécialité Informatique Fondamentale est de donner des connaissances solides dans le domaine des fondements de l'informatique. Il s'agit d'acquérir des connaissances sur les concepts et les méthodes dans l es thèmes couverts par le Laboratoire d'Informatique Fondamentale.</p></description>
+        <debouche>:(</debouche>
+
+        <!-- SEMESTRE 3 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINCU1"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU2"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU3"/>
+            <role obligatoire="V"/>
+
+            <!-- OPTION -->
+            <ref-ue ref="ENSINCU4"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU5"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU6"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU7"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU8"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU9"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU10"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU11"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU12"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU13"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU14"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU15"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU16"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU17"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU18"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU19"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU20"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU21"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU22"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU23"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU24"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU25"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU26"/>
+            <role obligatoire="F"/>
+        </semestre>
+
+        <!-- SEMESTRE 4 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINDU1"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINDU2"/>
+            <role obligatoire="V"/>
+        </semestre>
+    </parcours>
+
+    <!-- MASTER 2 : RIM -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Recherche d'informations multimédia (RIM)</nom>
+        <description><p>L'objectif de la spécialité RIM est de former des spécialistes du traitement et de la recherche de contenus multimédias. Du point de vue des débouchés professionnels, cette formation vise à produire des informaticiens spécialistes du traitement des données multimédia et de la recherche d'information qui pourront s'intégrer dans des entreprises innovantes centrées autour des domaines du multimédia et de l'internet.</p></description>
+        <debouche>:(</debouche>
+
+        <!-- SEMESTRE 3 -->
+        <semestre>
+            <!-- BONUS -->
+            <ref-ue ref="ENSINCU67"/>
+            <role obligatoire="F"/>
+
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINCU56"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU58"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU59"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU66"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU69"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU27"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU28"/>
+            <role obligatoire="V"/>
+
+            <!-- OPTION -->
+            <ref-ue ref="ENSINCU4"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU5"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU6"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU7"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU19"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU20"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSINCU21"/>
+            <role obligatoire="F"/>
+        </semestre>
+
+        <!-- SEMESTRE 4 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINDU3"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINDU4"/>
+            <role obligatoire="V"/>
+        </semestre>
+    </parcours>
+
+    <!-- MASTER 2 : SIR -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Systèmes d'informations répartis (SIR)</nom>
+        <description><p>Le programme vise la formation de spécialistes dans des métiers à forte valeur ajoutée au travers des compétences acquises dans trois domaines clés de l’informatique : les technologies avancées du Web (services web, multimédia, etc.), les nouveaux modes de développement du logiciel (Cloud, Mobile, etc.) et les processus métiers de l’entreprise.</p></description>
+        <debouche>:(</debouche>
+
+        <!-- SEMESTRE 3 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINCU60"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU64"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU65"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU68"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU74"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU75"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSISCU28"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU27"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINCU28"/>
+            <role obligatoire="V"/>
+        </semestre>
+
+        <!-- SEMESTRE 4 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINDU3"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINDU4"/>
+            <role obligatoire="V"/>
+        </semestre>
+    </parcours>
+
+    <!-- MASTER 2 : INF -->
+    <parcours>
+        <ref-intervenant/>
+        <nom>Informatique (INF)</nom>
+        <description><p>L’objectif est d’approfondir les connaissances de bases en Informatique sur l’intelligence artificielle, les systèmes d’information, conception et vérification des systèmes, informatique décisionnelle.</p></description>
+        <debouche>:(</debouche>
+
+        <!-- SEMESTRE 3 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSISCU20"/>
+            <role obligatoire="V"/>
+
+            <!-- OPTION 1 -->
+            <ref-ue ref="ENSISCU21"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU22"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU23"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU24"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU25"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU26"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU27"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU28"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU29"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU30"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU31"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU32"/>
+            <role obligatoire="F"/>
+
+            <!-- OPTION 2 -->
+            <ref-ue ref="ENSISCU1"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU4"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU5"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU6"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU7"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU8"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU55"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU3"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU2"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU33"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU34"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU35"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU36"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU37"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU38"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU39"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU40"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU41"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU42"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU43"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU44"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU45"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU46"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU21"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU22"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU23"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU24"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU25"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU26"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU27"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU28"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU29"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU30"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU32"/>
+            <role obligatoire="F"/>
+            <ref-ue ref="ENSISCU31"/>
+            <role obligatoire="F"/>
+        </semestre>
+
+        <!-- SEMESTRE 4 -->
+        <semestre>
+            <!-- OBLIGATOIRE -->
+            <ref-ue ref="ENSINDU3"/>
+            <role obligatoire="V"/>
+            <ref-ue ref="ENSINDU4"/>
+            <role obligatoire="V"/>
+        </semestre>
+    </parcours>
+</master>
