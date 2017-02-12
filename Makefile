@@ -15,9 +15,7 @@ web:
 	xslproc $(XSL)/$(DATA).xsl $(DATA).xml
 
 tidy:
-	for page in $(W)/intervant/* do
-		tidy -eq $(W)/$page
-	done
+	tidy -qe www/*.html
 
 xq:
 
