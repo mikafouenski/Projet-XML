@@ -9,17 +9,21 @@ dtd:
 	xmllint --valid --noout $(DATA).xml
 
 xsd:
+	echo -e "TODO"
 
 web:
-	$(MD) $(W)
-	xslproc $(XSL)/$(DATA).xsl $(DATA).xml
+	$(MD) $(W) && \
+	cd $(W) && \
+	saxon -xsl:../$(XSL)/$(DATA).xsl ../$(DATA).xml
 
 tidy:
-	tidy -qe www/*.html
+	tidy -e www/*.html
 
 xq:
+	echo -e "TODO"
 
 java:
+	echo -e "TODO"
 
 all: dtd xsd web tidy xq java
 
