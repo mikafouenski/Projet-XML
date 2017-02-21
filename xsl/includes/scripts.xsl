@@ -2,16 +2,13 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:template name="scripts">
+        <xsl:param name="preffix">../</xsl:param>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"/>
-        <xsl:choose>
-            <xsl:when test="ancestor::*">
-                <script src="../../www-asset/materialize/js/materialize.min.js"/>
-                <script src="../../www-asset/materialize/js/init.js"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <script src="../www-asset/materialize/js/materialize.min.js"/>
-                <script src="../www-asset/materialize/js/init.js"/>
-            </xsl:otherwise>
-        </xsl:choose>
+        <script>
+            <xsl:attribute name="src"><xsl:value-of select="$preffix"/>../www-asset/materialize/js/materialize.min.js</xsl:attribute>
+        </script>
+        <script>
+            <xsl:attribute name="src"><xsl:value-of select="$preffix"/>../www-asset/materialize/js/init.js</xsl:attribute>
+        </script>
     </xsl:template>
 </xsl:stylesheet>

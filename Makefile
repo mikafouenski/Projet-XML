@@ -13,11 +13,11 @@ xsd:
 
 web:
 	$(MD) $(W) && \
-	cd $(W) && \
-	saxon -xsl:../$(XSL)/$(DATA).xsl ../$(DATA).xml
+	java -cp saxon/saxon9he.jar net.sf.saxon.Transform -xsl:$(XSL)/$(DATA).xsl $(DATA).xml
 
 tidy:
-	tidy -e www/*.html
+	tidy -qe www/index.html
+	tidy -qe www/*/*.html
 
 xq:
 	echo -e "TODO"
@@ -28,4 +28,4 @@ java:
 all: dtd xsd web tidy xq java
 
 clean:
-	rm -vrf www
+	rm -rf www

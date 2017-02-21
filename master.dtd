@@ -21,6 +21,7 @@
 <!ATTLIST ref-ue ref IDREF #IMPLIED>
 
 <!ELEMENT parcours (ref-intervenant+, nom, description, debouche*, semestre+)>
+<!ATTLIST parcours id ID #IMPLIED>
 <!ELEMENT debouche (#PCDATA)>
 <!ELEMENT semestre ((ref-ue, role)+)>
 <!ELEMENT role EMPTY>

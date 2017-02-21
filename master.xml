@@ -1524,7 +1524,7 @@
 
     <!-- PARCOURS -->
     <!-- MASTER 1 -->
-    <parcours>
+    <parcours id="PARC01">
         <ref-intervenant/>
         <nom>Master 1</nom>
         <description><p>L'objectif de cette première année est de donner les bases indispensables permettant, en deuxième année, de choisir une spécialisation dans un domaine précis. Sur les 60 crédits de cette première année, 15 crédits correspondent à des enseignements optionnels. Ces options permettent de construire un parcours adapté. Un choix entre stage ou projet encadré est également proposé au semestre de printemps.</p></description>
@@ -1598,7 +1598,7 @@
     </parcours>
 
     <!-- MASTER 2 : FSI -->
-    <parcours>
+    <parcours id="PARC02">
         <ref-intervenant/>
         <nom>Fiabilité et sécurité informatique (FSI)</nom>
         <description><p>La formation donne les principes et techniques liés à la conception de systèmes informatiques surs dans un environnement ouvert et hétérogène. Elle forme les étudiants aux principes et méthodes de développement modernes qui reposent sur des outils de prototypage, de test et de suivi de logiciels, avec des méthodologies normalisées. Elle apporte des compétences fortes en sécurité informatique dans les domaines liés à l'échange d'information (Web-services, protocoles de communication et cryptographiques,..) et à la communication entre systèmes (réseaux hétérogènes et applications embarquées ou distribuées).</p></description>
@@ -1644,7 +1644,7 @@
     </parcours>
 
     <!-- MASTER 2 : ISL -->
-    <parcours>
+    <parcours id="PARC03">
         <ref-intervenant/>
         <nom>Intégration de systèmes logiciels (ISL)</nom>
         <description><p>Le développement de l'Internet/Intranet et des applications associées a fait émerger de nouvelles normes pour la structuration des applications informatiques réparties. L'enjeu est de présenter des modèles (programmation par composants, par aspects, design pattern), des plateformes (JEE, .NET, Corba, etc.) et des outils (JAVA, SGBDOO, XML) qui offrent un cadre dans lequel les applications sont développées, validées et intégrées plus facilement. L'objectif de ce parcours est d'initier les étudiants à la conception et à la réalisation d'applications dans de tels cadres. La formation mettra plus particulièrement l'accent sur les notions d'architecture logicielle, de programmation par composants, de qualité et de fiabilité. Elle utilisera la plateforme Java Enterprise Edition pour concrétiser les concepts présentés.</p></description>
@@ -1692,7 +1692,7 @@
     </parcours>
 
     <!-- MASTER 2 : GL -->
-    <parcours>
+    <parcours id="PARC04">
         <ref-intervenant/>
         <nom>Génie logiciel (GL)</nom>
         <description><p>La production d'un logiciel est une tâche très complexe mettant en oeuvre plusieurs ressources, notamment humaines, matériels et technologiques. La spécialité « Génie logiciel » a pour objectif d'apporter aux étudiants les compétences approfondies requises pour pouvoir intervenir dans toutes les phases de la production logiciel.</p></description>
@@ -1732,7 +1732,7 @@
     </parcours>
 
     <!-- MASTER 2 : FED -->
-    <parcours>
+    <parcours id="PARC05">
         <ref-intervenant/>
         <nom>Fouille et entrepôts de données (FED)</nom>
         <description><p>Ce parcours permet aux étudiants d’approfondir les connaissances qu'ils doivent maîtriser pour appréhender le cycle de vie complet des bases et entrepôts de données : de leur conception à leur administration, en passant par les architectures logicielles des systèmes de bases de données, et les divers formats d'échanges à travers le web. Une attention particulière est portée à l'étude des techniques de fouille et d'extraction de connaissances à partir de données. La Fouille de Données ou l'Extraction de Connaissances à partir de Bases de données désigne un domaine de compétences dont l'objectif est de rechercher et découvrir des informations, nouvelles et utiles, dans des données le plus souvent volumineuses et hétérogènes. La fouille de données rassemble des professionnels de plusieurs disciplines : des spécialistes en bases et entrepôts de données, en analyse des données, ayant aussi des connaissances de bases en recherche opérationnelle.</p></description>
@@ -1780,7 +1780,7 @@
     </parcours>
 
     <!-- MASTER 2 : RO -->
-    <parcours>
+    <parcours id="PARC06">
         <ref-intervenant/>
         <nom>Recherche opérationnelle (RO)</nom>
         <description><p>La recherche opérationnelle consiste à utiliser des méthodes et des modèles pour résoudre des problèmes complexes d'organisation, de planification, de gestion de ressources, ou d'optimisation issus de nombreux secteurs d'activités comme le transport, l'industrie, les télécommunications, la finance... La résolution de ces problèmes constitue un enjeu économique et industriel important. La conception d'applications décisionnelles requiert une phase de spécification et d'extraction de données lors de laquelle les compétences acquises par les étudiants de la spécialité ID dans le domaine de la fouille et des entrepôts de données sera particulièrement utile. Elle nécessite également des connaissances fondamentales dans le domaine de la modélisation et de l'optimisation et une très bonne maîtrise des outils nécessaires pour concevoir et développer des applications décisionnelles (langages de modélisation, solveurs, structures de données, algorithmes…).</p></description>
@@ -1828,7 +1828,7 @@
     </parcours>
 
     <!-- MASTER 2 : IF -->
-    <parcours>
+    <parcours id="PARC07">
         <ref-intervenant/>
         <nom>Informatique fondamentale (IF)</nom>
         <description><p>L'objectif de la spécialité Informatique Fondamentale est de donner des connaissances solides dans le domaine des fondements de l'informatique. Il s'agit d'acquérir des connaissances sur les concepts et les méthodes dans l es thèmes couverts par le Laboratoire d'Informatique Fondamentale.</p></description>
@@ -1904,7 +1904,7 @@
     </parcours>
 
     <!-- MASTER 2 : RIM -->
-    <parcours>
+    <parcours id="PARC08">
         <ref-intervenant/>
         <nom>Recherche d'informations multimédia (RIM)</nom>
         <description><p>L'objectif de la spécialité RIM est de former des spécialistes du traitement et de la recherche de contenus multimédias. Du point de vue des débouchés professionnels, cette formation vise à produire des informaticiens spécialistes du traitement des données multimédia et de la recherche d'information qui pourront s'intégrer dans des entreprises innovantes centrées autour des domaines du multimédia et de l'internet.</p></description>
@@ -1960,7 +1960,7 @@
     </parcours>
 
     <!-- MASTER 2 : SIR -->
-    <parcours>
+    <parcours id="PARC09">
         <ref-intervenant/>
         <nom>Systèmes d'informations répartis (SIR)</nom>
         <description><p>Le programme vise la formation de spécialistes dans des métiers à forte valeur ajoutée au travers des compétences acquises dans trois domaines clés de l’informatique : les technologies avancées du Web (services web, multimédia, etc.), les nouveaux modes de développement du logiciel (Cloud, Mobile, etc.) et les processus métiers de l’entreprise.</p></description>
@@ -2000,7 +2000,7 @@
     </parcours>
 
     <!-- MASTER 2 : INF -->
-    <parcours>
+    <parcours id="PARC10">
         <ref-intervenant/>
         <nom>Informatique (INF)</nom>
         <description><p>L’objectif est d’approfondir les connaissances de bases en Informatique sur l’intelligence artificielle, les systèmes d’information, conception et vérification des systèmes, informatique décisionnelle.</p></description>

@@ -2,22 +2,17 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:template name="head">
+        <xsl:param name="title"><xsl:value-of select="nom"/></xsl:param>
+        <xsl:param name="preffix">../</xsl:param>
         <head>
-            <title>Données Master</title>
-            <!--Import Google Icon Font-->
+            <title><xsl:value-of select="$title"/></title>
             <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-            <!--Import materialize.css-->
-            <xsl:choose>
-                <xsl:when test="ancestor::*">
-                    <link type="text/css" rel="stylesheet" href="../../www-asset/materialize/css/materialize.css" media="screen,projection"/>
-                    <link type="text/css" rel="stylesheet" href="../../www-asset/materialize/css/style.css" media="screen,projection"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <link type="text/css" rel="stylesheet" href="../www-asset/materialize/css/materialize.css" media="screen,projection"/>
-                    <link type="text/css" rel="stylesheet" href="../www-asset/materialize/css/style.css" media="screen,projection"/>
-                </xsl:otherwise>
-            </xsl:choose>
-            <!--Let browser know website is optimized for mobile-->
+            <link type="text/css" rel="stylesheet" media="screen,projection">
+                <xsl:attribute name="href"><xsl:value-of select="$preffix"/>../www-asset/materialize/css/materialize.css</xsl:attribute>
+            </link>
+            <link type="text/css" rel="stylesheet" media="screen,projection">
+                <xsl:attribute name="href"><xsl:value-of select="$preffix"/>../www-asset/materialize/css/style.css</xsl:attribute>
+            </link>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </head>
     </xsl:template>
