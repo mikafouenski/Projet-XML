@@ -4,7 +4,7 @@
     <xsl:output method="html" indent="yes" encoding="UTF-8"/>
 
     <xsl:template name="creer_parcours">
-        <xsl:for-each select="//parcours">
+        <xsl:for-each select="/master/parcours">
             <xsl:result-document method="html" href="www/parcours/{@id}.html">
                 <xsl:text disable-output-escaping='yes'>&lt;!doctype html&gt;</xsl:text>
                 <html>
@@ -24,8 +24,8 @@
                                     </xsl:for-each>
                                 </ul>
                                 <ul class="collection with-header">
-                                    <li class="collection-header"><h4>Intervenants</h4></li>
-                                    <xsl:for-each select="ref-intervenant">
+                                    <li class="collection-header"><h4>Responsables</h4></li>
+                                    <xsl:for-each select="ref-responsable">
                                         <li class="collection-item"><a>
                                             <xsl:attribute name="href">../intervenant/<xsl:value-of select="@ref"/>.html</xsl:attribute>
                                             <xsl:value-of select="/master/intervenant[@id = current()/@ref]/nom"/>

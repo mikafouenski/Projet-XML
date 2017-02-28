@@ -2,7 +2,7 @@
 
 <!ELEMENT master (ue+, intervenant+, parcours+)>
 
-<!ELEMENT ue (nom, credit, vol_horaire, description, plan, lieu, ref-intervenant+)>
+<!ELEMENT ue (nom, credit, vol_horaire, description, plan, lieu, ref-intervenant*)>
 <!ATTLIST ue id ID #IMPLIED>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT credit (#PCDATA)>
@@ -20,21 +20,23 @@
 <!ELEMENT ref-ue EMPTY>
 <!ATTLIST ref-ue ref IDREF #IMPLIED>
 
-<!ELEMENT parcours (ref-intervenant+, nom, description, debouche*, semestre+)>
+<!ELEMENT parcours (nom, description, debouche*, semestre+, ref-responsable*)>
 <!ATTLIST parcours id ID #IMPLIED>
 <!ELEMENT debouche (#PCDATA)>
 <!ELEMENT semestre ((ref-ue, role)+)>
+<!ELEMENT ref-responsable EMPTY>
+<!ATTLIST ref-responsable ref IDREF #IMPLIED>
 <!ELEMENT role EMPTY>
 <!ATTLIST role obligatoire (F|V) #REQUIRED>
 
-<!ELEMENT description (p | ul)*>
-<!ELEMENT p (#PCDATA | b | i | a | u)*>
-<!ELEMENT ul (li*)>
-<!ELEMENT li (t | b | u | i | br | p)*>
+<!ELEMENT description (p|ul|ol)*>
 
+<!ELEMENT ol (li*)>
+<!ELEMENT ul (li*)>
+<!ELEMENT li (t|b|i|u|br)*>
+<!ELEMENT p (t|b|i|u|br)*>
+<!ELEMENT t (#PCDATA)>
 <!ELEMENT b (#PCDATA)>
 <!ELEMENT i (#PCDATA)>
-<!ELEMENT a (#PCDATA)>
-<!ELEMENT t (#PCDATA)>
 <!ELEMENT u (#PCDATA)>
 <!ELEMENT br EMPTY>

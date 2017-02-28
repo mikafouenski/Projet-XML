@@ -5,24 +5,26 @@ W = www
 
 .PHONY: all clean dtd xsd web tidy xq java
 
-dtd:
+donneetomaster:
+	java -cp saxon/saxon9he.jar net.sf.saxon.Transform -xsl:$(XSL)/donneetomaster.xsl donnees-master/donnees-master.xml
+
+dtd: donneetomaster
 	xmllint --valid --noout $(DATA).xml
 
-xsd:
+xsd: donneetomaster
 	echo -e "TODO"
 
-web:
-	$(MD) $(W) && \
+web: donneetomaster
 	java -cp saxon/saxon9he.jar net.sf.saxon.Transform -xsl:$(XSL)/$(DATA).xsl $(DATA).xml
 
 tidy:
 	tidy -qe www/index.html
 	tidy -qe www/*/*.html
 
-xq:
-	echo -e "TODO"
+xq: donneetomaster
+	java -cp saxon/saxon9he.jar net.sf.saxon.Query -q:xq.txt -o:www/test.html
 
-java:
+java: donneetomaster
 	echo -e "TODO"
 
 all: dtd xsd web tidy xq java

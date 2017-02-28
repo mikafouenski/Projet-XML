@@ -4,7 +4,7 @@
     <xsl:output method="html" indent="yes" encoding="UTF-8"/>
 
     <xsl:template name="creer_intervenant">
-        <xsl:for-each select="//intervenant">
+        <xsl:for-each select="/master/intervenant">
             <xsl:result-document method="html" href="www/intervenant/{@id}.html">
                 <xsl:text disable-output-escaping='yes'>&lt;!doctype html&gt;</xsl:text>
                 <html>

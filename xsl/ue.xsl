@@ -4,7 +4,7 @@
     <xsl:output method="html" indent="yes" encoding="UTF-8"/>
 
     <xsl:template name="creer_ue">
-        <xsl:for-each select="//ue">
+        <xsl:for-each select="/master/ue">
             <xsl:result-document method="html" href="www/ue/{@id}.html">
                 <xsl:text disable-output-escaping='yes'>&lt;!doctype html&gt;</xsl:text>
                 <html>

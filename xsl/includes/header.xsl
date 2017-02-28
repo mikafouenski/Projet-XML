@@ -25,7 +25,7 @@
                             </xsl:call-template>
                         </ul>
                         <a href="#" data-activates="slide-out" class="button-collapse show-on-large menu-control"><i class="material-icons">menu</i></a>
-                        <a class="page-title">
+                        <a class="page-title truncate">
                             <xsl:value-of select="$page-title"/>
                         </a>
                     </div>
@@ -63,7 +63,7 @@
                     <a class="collapsible-header">Intervenants<i class="material-icons">arrow_drop_down</i></a>
                     <div class="collapsible-body">
                         <ul>
-                            <xsl:for-each select="//intervenant">
+                            <xsl:for-each select="/master/intervenant">
                                 <li><a class="truncate">
                                     <xsl:attribute name="href"><xsl:value-of select="$preffix"/>intervenant/<xsl:value-of select="@id"/>.html</xsl:attribute>
                                     <xsl:value-of select="nom"/>
@@ -86,7 +86,7 @@
                     <a class="collapsible-header">Parcours<i class="material-icons">arrow_drop_down</i></a>
                     <div class="collapsible-body">
                         <ul>
-                            <xsl:for-each select="//parcours">
+                            <xsl:for-each select="/master/parcours">
                                 <li><a class="truncate">
                                     <xsl:attribute name="href"><xsl:value-of select="$preffix"/>parcours/<xsl:value-of select="@id"/>.html</xsl:attribute>
                                     <xsl:value-of select="nom"/>
