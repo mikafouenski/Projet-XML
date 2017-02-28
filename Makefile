@@ -8,23 +8,23 @@ W = www
 donneetomaster:
 	java -cp saxon/saxon9he.jar net.sf.saxon.Transform -xsl:$(XSL)/donneetomaster.xsl donnees-master/donnees-master.xml
 
-dtd: donneetomaster
+dtd:
 	xmllint --valid --noout $(DATA).xml
 
-xsd: donneetomaster
-	echo -e "TODO"
+xsd:
+	xmllint --valid --noout --schema $(DATA).xsd $(DATA).xml
 
-web: donneetomaster
+web:
 	java -cp saxon/saxon9he.jar net.sf.saxon.Transform -xsl:$(XSL)/$(DATA).xsl $(DATA).xml
 
 tidy:
 	tidy -qe www/index.html
 	tidy -qe www/*/*.html
 
-xq: donneetomaster
+xq:
 	java -cp saxon/saxon9he.jar net.sf.saxon.Query -q:xq.txt -o:www/test.html
 
-java: donneetomaster
+java:
 	echo -e "TODO"
 
 all: dtd xsd web tidy xq java

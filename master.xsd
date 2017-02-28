@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="master" type="master_t"/>
+    <xs:complexType name="ref-ue_t">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="ref" use="optional"/>
+                <xs:attribute type="xs:string" name="obligatoire" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="parcours_t">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nom"/>
+            <xs:element type="description_t" name="description"/>
+            <xs:element type="xs:string" name="debouche"/>
+            <xs:element type="semestre_t" name="semestre" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="ref-responsable_t" name="ref-responsable"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="ref-responsable_t">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="ref" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="master_t">
+        <xs:sequence>
+            <xs:element type="ue_t" name="ue" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="intervenant_t" name="intervenant" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="parcours_t" name="parcours" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ref-intervenant_t">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="ref" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="li_t">
+        <xs:sequence>
+            <xs:element type="xs:string" name="t"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="role_t">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="obligatoire" use="optional"/>
+                <xs:attribute type="xs:string" name="ref" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ul_t">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="li_t" name="li"/>
+            <xs:element type="xs:string" name="t"/>
+            <xs:element type="xs:string" name="br"/>
+            <xs:element type="xs:string" name="b"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="intervenant_t">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nom"/>
+            <xs:element type="xs:string" name="prenom"/>
+            <xs:element type="xs:string" name="mail"/>
+            <xs:element type="xs:anyURI" name="site"/>
+            <xs:element type="ref-ue_t" name="ref-ue" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="ue_t">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nom"/>
+            <xs:element type="xs:unsignedInt" name="credit"/>
+            <xs:element type="xs:string" name="vol_horaire"/>
+            <xs:element type="description_t" name="description"/>
+            <xs:element type="xs:string" name="plan"/>
+            <xs:element type="xs:string" name="lieu"/>
+            <xs:element type="ref-intervenant_t" name="ref-intervenant" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+    <xs:complexType name="description_t" mixed="true">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="p_t" name="p"/>
+            <xs:element type="ul_t" name="ul"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="p_t">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="xs:string" name="t"/>
+            <xs:element type="xs:string" name="br"/>
+            <xs:element type="xs:string" name="b"/>
+            <xs:element type="li_t" name="li"/>
+            <xs:element type="xs:string" name="i"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="semestre_t">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="ref-ue_t" name="ref-ue"/>
+            <xs:element type="role_t" name="role"/>
+        </xs:choice>
+    </xs:complexType>
+</xs:schema>
