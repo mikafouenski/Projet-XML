@@ -15,9 +15,10 @@ function repertoire_existe()
 
 
 fichier_existe "Makefile"
-fichier_existe "master.xml"
-fichier_existe "master.dtd"
-fichier_existe "master.xsd"
+repertoire_existe "master"
+fichier_existe "master/master.xml"
+fichier_existe "master/master.dtd"
+fichier_existe "master/master.xsd"
 fichier_existe "xq.txt"
 
 fichier_existe "rapport.pdf"

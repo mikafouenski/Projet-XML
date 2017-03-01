@@ -1,15 +1,15 @@
 <ul>{
-    for $intervenant in doc("master.xml")/master/intervenant
+    for $intervenant in doc("master/master.xml")/master/intervenant
     order by $intervenant/nom
     return
         <li>{data($intervenant/nom)}
         <ul>{
-            for $ue in doc("master.xml")/master/ue
+            for $ue in doc("master/master.xml")/master/ue
             where $intervenant/@id = $ue/ref-intervenant/@ref
             order by $ue/nom
             return
                 <li>{data($ue/nom)} : {
-                    for $parcours in doc("master.xml")/master/parcours
+                    for $parcours in doc("master/master.xml")/master/parcours
                     where $ue/@id = $parcours/semestre/ref-ue/@ref
                     order by $parcours/nom
                     return data($parcours/nom)

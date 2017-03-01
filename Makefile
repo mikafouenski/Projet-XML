@@ -11,13 +11,13 @@ donneetomaster:
 	java -cp saxon/saxon9he.jar net.sf.saxon.Transform -xsl:$(XSL)/donneetomaster.xsl donnees-master/donnees-master.xml
 
 dtd:
-	xmllint --valid --noout $(DATA).xml
+	xmllint --valid --noout $(DATA)/$(DATA).xml
 
 xsd:
-	xmllint --valid --noout --schema $(DATA).xsd $(DATA).xml
+	xmllint --valid --noout --schema $(DATA)/$(DATA).xsd $(DATA)/$(DATA).xml
 
 web:
-	java -cp saxon/saxon9he.jar net.sf.saxon.Transform -xsl:$(XSL)/$(DATA).xsl $(DATA).xml
+	java -cp saxon/saxon9he.jar net.sf.saxon.Transform -xsl:$(XSL)/$(DATA).xsl $(DATA)/$(DATA).xml
 
 tidy:
 	- tidy -qe www/index.html
@@ -29,11 +29,14 @@ xq:
 java:
 	cd java && \
 	javac *.java && \
-	java Sax ../$(DATA).xml && \
+	java Sax ../$(DATA)/$(DATA).xml && \
 	echo -e "\n\nCi dessus Sax\n" && \
 	sleep 5 && \
-	java Dom ../$(DATA).xml && \
+	java Dom ../$(DATA)/$(DATA).xml && \
 	echo -e "\n\nCi dessus Dom\n"
+
+test:
+	./tester.sh
 
 clean:
 	rm -rf www

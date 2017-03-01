@@ -4,7 +4,7 @@
     <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
 
     <xsl:template match="/">
-        <xsl:result-document method="xml" href="master.xml" doctype-system="master.dtd">
+        <xsl:result-document method="xml" href="master/master.xml" doctype-system="master.dtd">
             <master>
 
                 <xsl:for-each select="/objets/objet[@type = 'enseignement']">
