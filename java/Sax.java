@@ -10,6 +10,9 @@ import org.xml.sax.helpers.XMLReaderFactory;
 public class Sax extends DefaultHandler{
     int nb_elements = 0;
     int nb_char = 0;
+	
+	String node = null;
+    boolean ue = false;
 
     public void parseXmlFile(String name) throws Exception {
         XMLReader xr = XMLReaderFactory.createXMLReader();
@@ -23,26 +26,26 @@ public class Sax extends DefaultHandler{
     public void startDocument() throws SAXException {
         nb_elements = 0;
         nb_char = 0;
-//        super.startDocument();
     }
 
     @Override
     public void endDocument() throws SAXException {
         System.out.println("nb_char :" + nb_char + " nb_elements :" + nb_elements);
-//        super.endDocument();
     }
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
         System.out.println("<" + qName + ">");
+		if (qName == "ue") ue = true;
+        node = qName;
+		
         nb_elements++;
-//        super.startElement(uri, localName, qName, attributes);
     }
 
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
         System.out.println("</" + qName + ">");
-//        super.endElement(uri, localName, qName);
+		if (qName == "ue") ue = false;
     }
 
     @Override
@@ -64,8 +67,12 @@ public class Sax extends DefaultHandler{
                     break;
             }
         }
-
-//        super.characters(ch, start, length);
+		
+		// Ici on affiche seulement les noms des unités d'enseignement
+		if(ue && node == "nom") {
+        	String str = new String(ch, start, length);
+            System.out.println("  " + str);
+        }
     }
 
     @Override
