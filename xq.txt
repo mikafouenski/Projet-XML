@@ -1,21 +1,19 @@
-xquery version "1.0";
 <ul>{
-    for $inter in doc("master.xml")//intervenant
+    for $intervenant in doc("master.xml")/master/intervenant
+    order by $intervenant/nom
     return
-        <li>
-        {string($inter/prenom)} {string($inter/nom)}
+        <li>{data($intervenant/nom)}
         <ul>{
-            for $cours in doc("master.xml")//ue
-            where $inter/@id = $cours/ref-intervenant/@ref
+            for $ue in doc("master.xml")/master/ue
+            where $intervenant/@id = $ue/ref-intervenant/@ref
+            order by $ue/nom
             return
-                <li>
-                {string($cours/nom)} : {
-                    for $parcours in doc("master.xml")//parcours
-                    where $cours/@id = $parcours/ref-ue/@ref
-                    return
-                        string($parcours/nom)
-                }
-                </li>
+                <li>{data($ue/nom)} : {
+                    for $parcours in doc("master.xml")/master/parcours
+                    where $ue/@id = $parcours/semestre/ref-ue/@ref
+                    order by $parcours/nom
+                    return data($parcours/nom)
+                }</li>
         }</ul>
-        </li>
+    </li>
 }</ul>
