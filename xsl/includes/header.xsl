@@ -14,6 +14,10 @@
                                 <xsl:attribute name="href"><xsl:value-of select="$preffix"/>index.html</xsl:attribute>
                                 Index
                             </a></li>
+                            <li><a>
+                                <xsl:attribute name="href"><xsl:value-of select="$preffix"/>xq.html</xsl:attribute>
+                                Xquery
+                            </a></li>
                             <xsl:call-template name="menu_ue">
                                 <xsl:with-param name="preffix" select="$preffix"/>
                             </xsl:call-template>

@@ -22,12 +22,12 @@ tidy:
 	tidy -qe www/*/*.html
 
 xq:
-	java -cp saxon/saxon9he.jar net.sf.saxon.Query -q:xq.txt -o:www/test.html
+	java -cp saxon/saxon9he.jar net.sf.saxon.Query -q:xq.txt -o:www/xq.html
 
 java:
 	echo -e "TODO"
 
-all: dtd xsd web tidy xq java
+all: donneetomaster dtd xsd web tidy xq java
 
 clean:
 	rm -rf www
