@@ -1,4 +1,4 @@
-package xmljava;
+// package xmljava;
 
 import org.xml.sax.*;
 import org.xml.sax.helpers.DefaultHandler;
@@ -10,8 +10,10 @@ import org.xml.sax.helpers.XMLReaderFactory;
 public class Sax extends DefaultHandler{
     int nb_elements = 0;
     int nb_char = 0;
-	
-	String node = null;
+
+    int indent = 0;
+
+    String node = null;
     boolean ue = false;
 
     public void parseXmlFile(String name) throws Exception {
@@ -35,22 +37,29 @@ public class Sax extends DefaultHandler{
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+        for (int i = 0; i < this.indent; ++i)
+            System.out.print("  ");
         System.out.println("<" + qName + ">");
-		if (qName == "ue") ue = true;
+        if (qName == "ue") ue = true;
         node = qName;
-		
+        this.indent++;
         nb_elements++;
     }
 
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
+        this.indent--;
+        for (int i = 0; i < this.indent; ++i)
+            System.out.print("  ");
         System.out.println("</" + qName + ">");
-		if (qName == "ue") ue = false;
+        if (qName == "ue") ue = false;
     }
 
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
         nb_char += length;
+        for (int i = 0; i < this.indent; ++i)
+            System.out.print("  ");
         for (int i = start; i < length; i++) {
             switch (ch[i]) {
                 case '&':
@@ -67,10 +76,10 @@ public class Sax extends DefaultHandler{
                     break;
             }
         }
-		
-		// Ici on affiche seulement les noms des unités d'enseignement
-		if(ue && node == "nom") {
-        	String str = new String(ch, start, length);
+
+        // Ici on affiche seulement les noms des unités d'enseignement
+        if(ue && node == "nom") {
+            String str = new String(ch, start, length);
             System.out.println("  " + str);
         }
     }
@@ -96,6 +105,6 @@ public class Sax extends DefaultHandler{
 
     public static void main(String args[]) throws Exception {
         Sax parser = new Sax();
-        parser.parseXmlFile("master.xml");
+        parser.parseXmlFile(args[0]);
     }
 }

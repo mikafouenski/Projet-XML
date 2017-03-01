@@ -25,9 +25,17 @@ xq:
 	java -cp saxon/saxon9he.jar net.sf.saxon.Query -q:xq.txt -o:www/xq.html
 
 java:
-	javac java/*.java
+	cd java && \
+	javac *.java && \
+	java Sax ../$(DATA).xml && \
+	echo -e "\n\nCi dessus Sax\n" && \
+	sleep 5 && \
+	java Dom ../$(DATA).xml && \
+	echo -e "\n\nCi dessus Dom\n"
+
 
 all: donneetomaster dtd xsd web tidy xq java
 
 clean:
 	rm -rf www
+	rm -rf java/*.class
