@@ -8,7 +8,7 @@ W = www
 all: donneetomaster dtd xsd web tidy xq java display
 
 display:
-	echo -e "\n\n Toutes les sorties \"longues\" se trouve dans le dossier out."
+	@ echo -e "\n\n Toutes les sorties Java se trouvent dans le dossier out."
 
 out_folder:
 	$(MD) out
@@ -35,8 +35,8 @@ xq:
 java: out_folder
 	cd java && \
 	javac *.java && \
-	java Sax ../$(DATA)/$(DATA).xml > out/Sax.txt && \
-	java Dom ../$(DATA)/$(DATA).xml > out/Dom.txt
+	java Sax ../$(DATA)/$(DATA).xml > ../out/Sax.txt && \
+	java Dom ../$(DATA)/$(DATA).xml > ../out/Dom.txt
 
 test:
 	./tester.sh
