@@ -29,12 +29,12 @@
 <!ELEMENT role EMPTY>
 <!ATTLIST role obligatoire (F|V) #REQUIRED>
 
-<!ELEMENT description (p|ul|ol)*>
+<!ELEMENT description (p | ul | ol)*>
 
 <!ELEMENT ol (li*)>
 <!ELEMENT ul (li*)>
-<!ELEMENT li (b|i|u|br)*>
-<!ELEMENT p (b|i|u|br)*>
+<!ELEMENT li (#PCDATA | b | i | u | br)*>
+<!ELEMENT p (#PCDATA | b | i | u | br)*>
 <!ELEMENT b (#PCDATA)>
 <!ELEMENT i (#PCDATA)>
 <!ELEMENT u (#PCDATA)>

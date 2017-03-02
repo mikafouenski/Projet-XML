@@ -40,11 +40,6 @@
             </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
-    <xs:complexType name="li_t">
-        <xs:sequence>
-            <xs:element type="xs:string" name="t"/>
-        </xs:sequence>
-    </xs:complexType>
     <xs:complexType name="role_t">
         <xs:simpleContent>
             <xs:extension base="xs:string">
@@ -55,8 +50,7 @@
     </xs:complexType>
     <xs:complexType name="ul_t">
         <xs:choice maxOccurs="unbounded" minOccurs="0">
-            <xs:element type="li_t" name="li"/>
-            <xs:element type="xs:string" name="t"/>
+            <xs:element type="xs:string" name="li"/>
             <xs:element type="xs:string" name="br"/>
             <xs:element type="xs:string" name="b"/>
         </xs:choice>
@@ -83,18 +77,17 @@
         </xs:sequence>
         <xs:attribute type="xs:string" name="id" use="optional"/>
     </xs:complexType>
-    <xs:complexType name="description_t" mixed="true">
+    <xs:complexType name="description_t">
         <xs:choice maxOccurs="unbounded" minOccurs="0">
             <xs:element type="p_t" name="p"/>
             <xs:element type="ul_t" name="ul"/>
         </xs:choice>
     </xs:complexType>
-    <xs:complexType name="p_t">
+    <xs:complexType name="p_t" mixed="true">
         <xs:choice maxOccurs="unbounded" minOccurs="0">
-            <xs:element type="xs:string" name="t"/>
             <xs:element type="xs:string" name="br"/>
             <xs:element type="xs:string" name="b"/>
-            <xs:element type="li_t" name="li"/>
+            <xs:element type="xs:string" name="li"/>
             <xs:element type="xs:string" name="i"/>
         </xs:choice>
     </xs:complexType>

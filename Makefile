@@ -5,7 +5,13 @@ W = www
 
 .PHONY: all clean dtd xsd web tidy xq java
 
-all: donneetomaster dtd xsd web tidy xq java
+all: donneetomaster dtd xsd web tidy xq java display
+
+display:
+	echo -e "\n\n Toutes les sorties \"longues\" se trouve dans le dossier out."
+
+out_folder:
+	$(MD) out
 
 donneetomaster:
 	java -cp saxon/saxon9he.jar net.sf.saxon.Transform -xsl:$(XSL)/donneetomaster.xsl donnees-master/donnees-master.xml
@@ -26,14 +32,11 @@ tidy:
 xq:
 	java -cp saxon/saxon9he.jar net.sf.saxon.Query -q:xq.txt -o:www/xq.html
 
-java:
+java: out_folder
 	cd java && \
 	javac *.java && \
-	java Sax ../$(DATA)/$(DATA).xml && \
-	echo -e "\n\nCi dessus Sax\n" && \
-	sleep 5 && \
-	java Dom ../$(DATA)/$(DATA).xml && \
-	echo -e "\n\nCi dessus Dom\n"
+	java Sax ../$(DATA)/$(DATA).xml > out/Sax.txt && \
+	java Dom ../$(DATA)/$(DATA).xml > out/Dom.txt
 
 test:
 	./tester.sh
@@ -41,3 +44,4 @@ test:
 clean:
 	rm -rf www
 	rm -rf java/*.class
+	rm -rf out
