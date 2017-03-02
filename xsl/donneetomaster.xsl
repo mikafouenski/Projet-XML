@@ -22,7 +22,9 @@
                             <xsl:value-of select="info[@nom = 'vol_global']/@value"/>
                         </vol_horaire>
                         <description>
-                            <xsl:copy-of select="info[@nom = 'contenu']/*"/>
+                            <xsl:call-template name="parse_contenu_enrichie">
+                                <xsl:with-param name="target" select="info[@nom = 'contenu']"/>
+                            </xsl:call-template>
                         </description>
                         <plan>Plan ?</plan>
                         <lieu>Luminy</lieu>
@@ -70,7 +72,9 @@
                             <xsl:value-of select="info[@nom = 'nom']/@value"/>
                         </nom>
                         <description>
-                            <xsl:copy-of select="info[@nom = 'objectifs']/*"/>
+                            <xsl:call-template name="parse_contenu_enrichie">
+                                <xsl:with-param name="target" select="info[@nom = 'objectifs']"/>
+                            </xsl:call-template>
                         </description>
                         <debouche>Débouchés ?</debouche>
                         <xsl:for-each select="info[@nom = 'structure']">
@@ -114,4 +118,62 @@
             </master>
         </xsl:result-document>
     </xsl:template>
+
+    <xsl:template name="parse_contenu_enrichie">
+        <xsl:param name="target"/>
+        <xsl:apply-templates select="$target"/>
+    </xsl:template>
+
+    <xsl:template match="ol">
+        <ol>
+            <xsl:apply-templates/>
+        </ol>
+    </xsl:template>
+
+    <xsl:template match="ul">
+        <ul>
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
+
+    <xsl:template match="li">
+        <li>
+            <xsl:apply-templates/>
+        </li>
+    </xsl:template>
+
+    <xsl:template match="p">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
+    <xsl:template match="b">
+        <b>
+            <xsl:apply-templates/>
+        </b>
+    </xsl:template>
+
+    <xsl:template match="i">
+        <i>
+            <xsl:apply-templates/>
+        </i>
+    </xsl:template>
+
+    <xsl:template match="u">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+
+    <xsl:template match="br">
+        <br>
+            <xsl:apply-templates/>
+        </br>
+    </xsl:template>
+
+    <xsl:template match="t">
+        <xsl:apply-templates/>
+    </xsl:template>
+
 </xsl:stylesheet>

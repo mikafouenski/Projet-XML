@@ -33,9 +33,8 @@
 
 <!ELEMENT ol (li*)>
 <!ELEMENT ul (li*)>
-<!ELEMENT li (t|b|i|u|br)*>
-<!ELEMENT p (t|b|i|u|br)*>
-<!ELEMENT t (#PCDATA)>
+<!ELEMENT li (b|i|u|br)*>
+<!ELEMENT p (b|i|u|br)*>
 <!ELEMENT b (#PCDATA)>
 <!ELEMENT i (#PCDATA)>
 <!ELEMENT u (#PCDATA)>
